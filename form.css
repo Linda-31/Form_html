@@ -1,0 +1,43 @@
+body{
+    background-image: url("mg.jpg");
+    background-repeat: no-repeat;
+    background-size: 1100px;
+    background-attachment: fixed; 
+    background-position: 200px;
+    font-size: 18px;
+    font-weight: 10px;
+    background-color: rgb(238, 230, 157);
+}
+h1{
+    color: rgba(233, 8, 57, 0.788);
+    text-align: center;
+    text-shadow: 5px -5px 5px rgb(170, 157, 157);
+
+}
+.Button{
+    background-color: green;
+    width: 30%;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow:0 0 14px rgb(0, 0, 0, .1) ;
+    cursor: pointer;
+    
+}
+.wrapper{
+    width: 530px;
+    height: 400;
+    background-color: rgb(243, 235, 224);
+    border-width: 8px;
+    border-color:rgb(184, 245, 202);
+    padding: 30px; 
+    position: relative;
+    left: 670px;
+    top:10px;
+    border: 2px solid rgb(255, 255, 255, .1);
+    /* background: transparent; */
+    /* backdrop-filter: blur(10px); */
+    border-radius: 20px;
+    box-shadow:0 0 15px rgb(0, 0, 0, .2) ;
+}

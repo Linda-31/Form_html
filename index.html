@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class="wrapper">
+    <h1>Student Registration Form</h1>
+    <form  >
+    <table cellpading="7" cellspacing="7">
+    <tr>
+        <td>First Name:</td><td><input type="text" name="txt1" placeholder=" Firstname" ></td>
+    </tr>
+    <tr>
+        <td>Last Name:</td><td><input type="text" name="txt2" placeholder=" Lastname"></td>
+    </tr>
+    <tr>
+        <td>Father's Name:</td><td><input type="text" name="txt3" ></td>
+    </tr>
+    <tr>
+        <td>Mother's Name:</td><td><input type="text" name="txt4"  ></td>
+    </tr>
+    <tr>
+    <td>Date of Birth:</td><td><input type="date" name="birthday" ></td>
+    </tr>
+    <tr>
+        <td>Email:</td><td><input type="email" name="email" placeholder="mail ID" ></td>
+    </tr>
+    <tr>
+        <td>Gender:</td><td><input type="radio" name="male" />Male
+    <input type="radio" name="male"/>Female
+    <input type="radio" name="male" />others</td>
+    </tr>
+    <tr>
+        <td>Choose the course:</td><td>
+    <select name="course">
+        <option value="choose">---Select---</option>
+        <option value="python">Python</option>
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="php">PHP</option>
+        <option value="react js">React js</option>
+    </select></td>
+    </tr>
+    <tr>
+        <td>Hobies:</td><td><input type="checkbox" name="chk1" value="re"/>Dance
+    <input type="checkbox" name="chk2" value="re"/>Reading books
+    <input type="checkbox" name="chk1" value="re"/>Drawing
+    <input type="checkbox" name="chk1" value="re"/>singing</td>
+    </tr>
+    <tr>
+        <td>Address:</td><td><textarea rows="4" cols="40"></textarea></td>
+    </tr>
+    <tr>
+            <td>Upload your Photo:</td><td><input type="file" name="fil"></td>
+    </tr>
+    <tr><td></td><td><input type="submit" class="Button" value="Submit"> </td>
+    </tr>
+</table> 
+</form>
+</div>
+</body>
+</html>
