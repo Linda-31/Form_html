@@ -1,2 +1,4 @@
 <h1  style="text-align:center">Student Registration Form using HTML and CSS</h1>
-![alt text](https://github.com/Linda-31/Form_html/blob/68ed5070c4ad845d9942c4cebe86f300c5a78b0e/Form.PNG)
+<p align="center">
+<img width="750" src="https://github.com/user-attachments/assets/fd190a35-e52b-4fe8-ad3d-e61612057359)">
+</p>
